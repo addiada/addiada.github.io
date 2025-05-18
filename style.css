@@ -1,0 +1,59 @@
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fffce8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #ff61a6, #6bffda, #ffd662);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header .logo {
+    width: 120px;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #222;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #ff61a6;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #6bffda;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #ff61a6;
+}
+
+.photo, .logo {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
